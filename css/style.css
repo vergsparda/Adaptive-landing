@@ -8,6 +8,8 @@
   text-decoration: none;
   border-style: none;
   list-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 @font-face {
