@@ -10,7 +10,6 @@
   list-style: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-
 }
 
 @font-face {
@@ -21,6 +20,7 @@
   font-weight: 700;
   font-style: bold;
 }
+
 @font-face {
   font-family: 'OpenSans';
   src: url(../fonts/OpenSans-Regular.ttf);
@@ -28,3 +28,36 @@
   src: url(../fonts/OpenSans-Regular.woff2);
   font-weight: 400;
   font-style: normal;
+}
+
+.header-container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/football_767.jpg");
+  background-color: #0a0e34;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+}
+
+.header-container::after {
+  content: "";
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+}
+
+.header-logo-box {
+
+}
+
+.logo-text {
+
+}
