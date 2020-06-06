@@ -99,6 +99,9 @@
 .download-links {
   display: flex;
   flex-wrap: wrap;
+}
+
+.download-links-header {
   margin-top: 28vw;
 }
 
@@ -107,8 +110,8 @@
   background-color: #5e42b0;
   width: 100%;
   border-radius: 9vw;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 5px;
+  padding-bottom: 6px;
 }
 
 .download-link-box:nth-child(n+2) {
@@ -166,7 +169,7 @@
 }
 
 .footer-title {
-  padding-top: 31vw;
+  padding-top: 29vw;
 }
 
 .title-logo-box {
@@ -175,7 +178,7 @@
   height: 22vw;
   text-align: center;
   background-color: #5e42b0;
-  border-radius: 5vw;
+  border-radius: 6vw;
   padding: 3%;
 }
 
@@ -186,7 +189,7 @@
 }
 
 .title-text {
-  margin-top: 18.4vw;
+  margin-top: 18vw;
   padding: 0;
 }
 
@@ -197,6 +200,10 @@
   text-transform: uppercase;
 }
 
+.download-links-footer {
+  margin-top: 24vw;
+}
+
 .footer-text-subtitle {
   font-family: OpenSans;
   color: #9b8ec1;
@@ -205,6 +212,7 @@
 }
 
 .footer-logo-box {
+  margin-top: 21vw;
 }
 
 .footer-logo {
