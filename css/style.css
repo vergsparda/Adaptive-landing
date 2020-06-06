@@ -30,10 +30,13 @@
   font-style: normal;
 }
 
-.header-container {
+.header {
+  background-image: url("../images/football_767.jpg");
+}
+
+.header, .footer {
   height: 100vh;
   width: 100%;
-  background-image: url("../images/football_767.jpg");
   background-color: #0a0e34;
   background-repeat: no-repeat;
   background-position: center center;
@@ -43,21 +46,167 @@
   text-align: center;
 }
 
-.header-container::after {
+.header::after {
   content: "";
-  background-color: #000000;
+  background-color: #0a0e34;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.1;
+  opacity: 0.9;
 }
 
-.header-logo-box {
-
+.header-container, .footer-container {
+  position: relative;
+  z-index: 2;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .logo-text {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  vertical-align: middle;
+}
 
+.header-logo-box {
+  margin-top: 33px;
+}
+
+.header-logo {
+  fill: #ffffff;
+}
+
+.header-title, .header-subtitle {
+  font-family: OpenSans-Bold;
+  font-size: 175%;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.header-title {
+  margin-top: 30vmin;
+}
+
+.header-subtitle {
+  padding-left: 44px;
+  margin-top: 9vw;
+}
+
+.download-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 28vw;
+}
+
+.download-link-box {
+  display: flex;
+  background-color: #5e42b0;
+  width: 100%;
+  border-radius: 9vw;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.download-link-box:nth-child(n+2) {
+  margin-top: 14px;
+}
+
+.download-link {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: 30%;
+}
+
+.link-logo {
+  fill: #ffffff;
+  width: 24px;
+  height: 24px;
+}
+
+.link-text {
+  display: inline-block;
+  margin-left: 3vw;
+  text-align: left;
+}
+
+.link-text-subtitle, .link-text-title {
+  font-size: 50%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.link-text-title {
+  font-family: OpenSans
+}
+
+.link-text-subtitle {
+  font-family: OpenSans-Bold;
+}
+
+.link-logo {}
+
+.footer {
+  background-image: url("../images/game_767.jpg");
+}
+
+.footer::after {
+  content: "";
+  background-color: #0a0e34;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.9;
+}
+
+.footer-title {
+  padding-top: 31vw;
+}
+
+.title-logo-box {
+  display: inline-block;
+  width: 22vw;
+  height: 22vw;
+  text-align: center;
+  background-color: #5e42b0;
+  border-radius: 5vw;
+  padding: 3%;
+}
+
+.footer-title-logo {
+  width: inherit;
+  height: inherit;
+  fill: #ffffff;
+}
+
+.title-text {
+  margin-top: 18.4vw;
+  padding: 0;
+}
+
+.footer-text-title {
+  font-family: OpenSans-Bold;
+  color: #ffffff;
+  font-size: 10.5vw;
+  text-transform: uppercase;
+}
+
+.footer-text-subtitle {
+  font-family: OpenSans;
+  color: #9b8ec1;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+
+.footer-logo-box {
+}
+
+.footer-logo {
+  fill: #ffffff;
 }
