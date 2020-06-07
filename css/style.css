@@ -4,7 +4,6 @@
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
   text-decoration: none;
   border-style: none;
   list-style: none;
@@ -169,12 +168,14 @@ section {}
   text-transform: uppercase;
   font-size: 16vw;
   color: #e7e7e7;
+  margin-bottom: 76.2vw;
 }
 
 .content-directions-athlets {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  position: relative;
 }
 
 .content-direction {
@@ -183,6 +184,7 @@ section {}
   width: 100%;
   align-items: center;
   padding-top: 83px;
+  padding-bottom: 18.7vw;
 }
 
 .content-direction:nth-child(1) {
@@ -197,8 +199,7 @@ section {}
   background-color: #5e42b0;
 }
 
-.content-directions-athlets .content-direction:nth-child(3)
-.content-direction-desc {
+.content-directions-athlets .content-direction:nth-child(3) .content-direction-desc {
   color: #ffffff;
 }
 
@@ -206,22 +207,26 @@ section {}
   background-color: #090c35;
 }
 
-.content-directions-players .content-direction:nth-child(3)
-.content-direction-desc {
+.content-directions-players .content-direction:nth-child(3) .content-direction-desc {
   color: #ffffff;
 }
-.content-directions-players .content-direction:nth-child(3)
-.content-direction-number {
+
+.content-directions-players .content-direction:nth-child(3) .content-direction-number {
   color: #8765dd;
 }
+
 .content-direction-number {
   font-family: OpenSans-bold;
   font-size: 4.3vw;
   color: #000000;
+  align-self: flex-start;
+  margin-top: 1.25vw;
 }
 
 .content-direction-title {
+  vertical-align: top;
   font-family: OpenSans-Bold;
+  font-size: 7.2vw;
   color: #c1c1c1;
   text-transform: uppercase;
   margin-left: 10px;
