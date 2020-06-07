@@ -153,6 +153,86 @@
 
 .link-logo {}
 
+main {}
+
+.content {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.content-directions {}
+
+section {}
+
+.content-directions-subject {
+  font-family: OpenSans-bold;
+  text-transform: uppercase;
+  font-size: 16vw;
+  color: #e7e7e7;
+}
+
+.content-directions-athlets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.content-direction {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  padding-top: 83px;
+}
+
+.content-direction:nth-child(1) {
+  background-color: #fafafa;
+}
+
+.content-direction:nth-child(2) {
+  background-color: #f5f4f9;
+}
+
+.content-direction:nth-child(3) {
+  background-color: #5e42b0;
+}
+
+.content-directions-athlets .content-direction:nth-child(3)
+.content-direction-desc {
+  color: #ffffff;
+}
+
+.content-directions-players .content-direction:nth-child(3) {
+  background-color: #090c35;
+}
+
+.content-directions-players .content-direction:nth-child(3)
+.content-direction-desc {
+  color: #ffffff;
+}
+.content-directions-players .content-direction:nth-child(3)
+.content-direction-number {
+  color: #8765dd;
+}
+.content-direction-number {
+  font-family: OpenSans-bold;
+  font-size: 4.3vw;
+  color: #000000;
+}
+
+.content-direction-title {
+  font-family: OpenSans-Bold;
+  color: #c1c1c1;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.content-direction-desc {
+  font-family: OpenSans;
+  font-size: 4.3vw;
+  color: #000000;
+}
+
 .footer {
   background-image: url("../images/game_767.jpg");
 }
