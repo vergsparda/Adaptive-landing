@@ -154,21 +154,34 @@
 
 main {}
 
-.content {
-  padding-left: 6%;
-  padding-right: 6%;
-}
+.content {}
 
 .content-directions {}
 
-section {}
+.direction-athlets {
+  position: relative;
+}
 
 .content-directions-subject {
   font-family: OpenSans-bold;
   text-transform: uppercase;
   font-size: 16vw;
   color: #e7e7e7;
-  margin-bottom: 76.2vw;
+  margin-bottom: 72.2vw;
+  padding-left: 6%;
+}
+
+.content-direction-pic {
+
+}
+
+.content-direction-img {
+  position: absolute;
+  width: 60vw;
+  display: block;
+  top: 23vw;
+  left: 22vw;
+  z-index: 3;
 }
 
 .content-directions-athlets {
@@ -183,8 +196,11 @@ section {}
   flex-wrap: wrap;
   width: 100%;
   align-items: center;
-  padding-top: 83px;
+  box-sizing: border-box;
+  padding-top: 18vw;
   padding-bottom: 18.7vw;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 
 .content-direction:nth-child(1) {
@@ -230,6 +246,7 @@ section {}
   color: #c1c1c1;
   text-transform: uppercase;
   margin-left: 10px;
+  margin-bottom: 5vw;
 }
 
 .content-direction-desc {
@@ -237,6 +254,8 @@ section {}
   font-size: 4.3vw;
   color: #000000;
 }
+
+.direction-players {}
 
 .footer {
   background-image: url("../images/game_767.jpg");
