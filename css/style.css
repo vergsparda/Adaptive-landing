@@ -36,7 +36,6 @@
 .header, .footer {
   height: 100vh;
   width: 100%;
-  background-color: #0a0e34;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -150,7 +149,6 @@
   font-family: OpenSans-Bold;
 }
 
-.link-logo {}
 
 main {}
 
@@ -306,7 +304,7 @@ main {}
 .content-card-pic {}
 
 .content-card-img {
-  width: 100vw;
+  width: 100%;
 }
 
 .content-card-title,
@@ -387,8 +385,6 @@ main {}
 }
 
 .footer-title-logo {
-  width: inherit;
-  height: inherit;
   fill: #ffffff;
 }
 
@@ -416,7 +412,7 @@ main {}
 }
 
 .footer-logo-box {
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 .footer-logo {
