@@ -482,7 +482,7 @@ main {}
   }
 
   .content-direction-img {
-    width: 64vw;
+    width: 62vw;
     top: 4vw;
     left: -20vw;
   }
@@ -499,33 +499,9 @@ main {}
     padding-top: 3vw;
   }
 
-  .content-direction:nth-child(2) {
-    background-color: #f5f4f9;
-  }
-
-  .content-direction:nth-child(3) {
-    background-color: #5e42b0;
-  }
-
   .direction-players .content-direction {
     padding-left: 6%;
     padding-right: 45%;
-  }
-
-  .content-directions-athlets .content-direction:nth-child(3) .content-direction-desc {
-    color: #ffffff;
-  }
-
-  .content-directions-players .content-direction:nth-child(3) {
-    background-color: #090c35;
-  }
-
-  .content-directions-players .content-direction:nth-child(3) .content-direction-desc {
-    color: #ffffff;
-  }
-
-  .content-directions-players .content-direction:nth-child(3) .content-direction-number {
-    color: #8765dd;
   }
 
   .content-direction-number {
@@ -546,11 +522,6 @@ main {}
   .content-direction-desc {
     font-size: 100%;
     line-height: 175%;
-    color: #000000;
-  }
-
-  .direction-players {
-    position: relative;
   }
 
   .direction-players .content-direction-img {
@@ -558,6 +529,68 @@ main {}
     top: -4vw;
     left: 43vw;
   }
+
+
+  .content-card-title,
+  .content-card-number,
+  .content-card-text {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+
+  .content-card-title {
+    margin-top: 6.6vw;
+    margin-bottom: 13px;
+    font-size: 500%;
+    color: #e7e7e7;
+  }
+
+  .content-card-number {
+    width: 15vw;
+    height: 15vw;
+    color: #ffffff;
+    font-size: 150%;
+    padding-top: 5vw;
+    top: -10.5vw;
+  }
+
+  .content-card-number::after {
+    width: 25px;
+    height: 5px;
+    left: calc(50% - 1.4vw);
+    top: 9vw;
+  }
+
+  .content-card-text {
+    font-size: 170%;
+    margin-bottom: 13vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   .footer-title {
     padding-top: 16.4vw;
