@@ -149,7 +149,6 @@
   font-family: OpenSans-Bold;
 }
 
-
 main {}
 
 .content {}
@@ -168,8 +167,6 @@ main {}
   margin-bottom: 72.2vw;
   padding-left: 6%;
 }
-
-.content-direction-pic {}
 
 .content-direction-img {
   position: absolute;
@@ -346,9 +343,8 @@ main {}
   height: 4px;
   left: calc(50% - 2.7vw);
   top: 14vw;
-
-
 }
+
 .content-card-text {
   font-family: OpenSans;
   font-size: 87.5%;
@@ -420,7 +416,6 @@ main {}
 }
 
 @media (min-width:641px) and (max-width:960px) {
-
   .header-logo-box, .footer-logo-box {
     width: 27%;
   }
@@ -460,7 +455,6 @@ main {}
 
   .download-link-box:nth-child(n+2) {
     margin-top: 0;
-
   }
 
   .download-link {
@@ -476,34 +470,115 @@ main {}
     font-size: 87.5%;
   }
 
-}
+  .content-directions-subject {
+    font-size: 500%;
+    margin-top: 8vw;
+    margin-bottom: 0;
+    padding-left: 38%;
+  }
 
+  .direction-players .content-directions-subject {
+    padding-left: 5.3%;
+  }
 
+  .content-direction-img {
+    width: 64vw;
+    top: 4vw;
+    left: -20vw;
+  }
 
+  .content-direction {
+    padding-top: 4.5vw;
+    padding-bottom: 4vw;
+    padding-left: 38%;
+    padding-right: 6%;
+  }
 
+  .content-direction:nth-child(1) {
+    background-color: #ffffff;
+    padding-top: 3vw;
+  }
 
+  .content-direction:nth-child(2) {
+    background-color: #f5f4f9;
+  }
 
+  .content-direction:nth-child(3) {
+    background-color: #5e42b0;
+  }
 
+  .direction-players .content-direction {
+    padding-left: 6%;
+    padding-right: 45%;
+  }
 
-.footer-title {
-  padding-top: 16.4vw;
-}
+  .content-directions-athlets .content-direction:nth-child(3) .content-direction-desc {
+    color: #ffffff;
+  }
 
-.title-logo-box {
-  width: 12vw;
-  height: 12vw;
-  border-radius: 4vw;
-}
+  .content-directions-players .content-direction:nth-child(3) {
+    background-color: #090c35;
+  }
 
-.title-text {
-  margin-top: 10vw;
-  padding: 0;
-}
+  .content-directions-players .content-direction:nth-child(3) .content-direction-desc {
+    color: #ffffff;
+  }
 
-.download-links-footer {
-  margin-top: 37.5vw;
-}
+  .content-directions-players .content-direction:nth-child(3) .content-direction-number {
+    color: #8765dd;
+  }
 
-.footer-logo-box {
-  margin-top: 55px;
+  .content-direction-number {
+    font-size: 112%;
+    margin-top: 0.9vw;
+  }
+
+  .content-direction-number::after {
+    width: 19px;
+    height: 5px;
+  }
+
+  .content-direction-title {
+    font-size: 200%;
+    margin-bottom: 2vw;
+  }
+
+  .content-direction-desc {
+    font-size: 100%;
+    line-height: 175%;
+    color: #000000;
+  }
+
+  .direction-players {
+    position: relative;
+  }
+
+  .direction-players .content-direction-img {
+    width: 57vw;
+    top: -4vw;
+    left: 43vw;
+  }
+
+  .footer-title {
+    padding-top: 16.4vw;
+  }
+
+  .title-logo-box {
+    width: 12vw;
+    height: 12vw;
+    border-radius: 4vw;
+  }
+
+  .title-text {
+    margin-top: 10vw;
+    padding: 0;
+  }
+
+  .download-links-footer {
+    margin-top: 37.5vw;
+  }
+
+  .footer-logo-box {
+    margin-top: 55px;
+  }
 }
