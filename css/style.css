@@ -530,7 +530,6 @@ main {}
     left: 43vw;
   }
 
-
   .content-card-title,
   .content-card-number,
   .content-card-text {
@@ -542,13 +541,11 @@ main {}
     margin-top: 6.6vw;
     margin-bottom: 13px;
     font-size: 500%;
-    color: #e7e7e7;
   }
 
   .content-card-number {
     width: 15vw;
     height: 15vw;
-    color: #ffffff;
     font-size: 150%;
     padding-top: 5vw;
     top: -10.5vw;
@@ -565,32 +562,6 @@ main {}
     font-size: 170%;
     margin-bottom: 13vw;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   .footer-title {
     padding-top: 16.4vw;
@@ -615,3 +586,5 @@ main {}
     margin-top: 55px;
   }
 }
+
+@media (min-width: 961px) and (max-width: 1920px) {}
