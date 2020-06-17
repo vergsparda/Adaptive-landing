@@ -777,23 +777,23 @@ main {}
   }
 
   .content-card-number {
-    width: 8.74vw;
-    height: 8vw;
+    width: 168px;
+    height: 155px;
     font-size: 150%;
-    padding-top: 3vw;
+    padding-top: 62px;
     top: 10.9vw;
-    left: -4.37vw;
+    left: -77.5px;
   }
 
   .content-card:nth-child(3) .content-card-number {
-    left: calc(100% - 4.37vw);
+    left: calc(100% - 77.5px);
   }
 
   .content-card-number::after {
     width: 25px;
     height: 5px;
-    left: calc(50% - 0.7vw);
-    top: 4.6vw;
+    left: calc(50% - 13px);
+    top: calc(100% - 64px)
   }
 
   .content-card-text {
