@@ -767,8 +767,8 @@ main {}
   }
 
   .content-card-title {
-    margin-top: 6.66vw;
-    margin-bottom: 6.1vw;
+    margin-top: 12vw;
+    margin-bottom: 6vw;
     font-size: 500%;
   }
 
@@ -777,23 +777,27 @@ main {}
   }
 
   .content-card-number {
-    width: 15vw;
-    height: 15vw;
+    width: 8.74vw;
+    height: 8vw;
     font-size: 150%;
-    padding-top: 5vw;
-    top: -10.5vw;
+    padding-top: 3vw;
+    top: 10.9vw;
+    left: -4.37vw;
+  }
+
+  .content-card:nth-child(3) .content-card-number {
+    left: calc(100% - 4.37vw);
   }
 
   .content-card-number::after {
     width: 25px;
     height: 5px;
-    left: calc(50% - 1.4vw);
-    top: 9vw;
+    left: calc(50% - 0.7vw);
+    top: 4.6vw;
   }
 
   .content-card-text {
     font-size: 150%;
-    margin-bottom: 12.5vw;
   }
 
   .footer {
