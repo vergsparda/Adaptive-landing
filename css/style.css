@@ -712,6 +712,7 @@ main {}
   }
 
   .content-direction {
+    display: block;
     padding-top: 2.8vw;
     padding-bottom: 2.8vw;
     padding-right: 10%;
