@@ -1,3 +1,1 @@
-# mq-diplom
-
- - [] Задача №1
+# Adaptive landing
